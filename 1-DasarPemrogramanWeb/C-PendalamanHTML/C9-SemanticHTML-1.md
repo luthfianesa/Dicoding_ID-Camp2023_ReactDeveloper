@@ -1,4 +1,4 @@
-### Mengorganisasi Halaman Konten
+## Mengorganisasi Halaman Konten
 
 - Sebuah website memiliki hierarki konten yang sama seperti dokumen sehari-hari yang kita baca, majalah, dan koran contohnya.
 - Jadi, hierarki pada sebuah website merupakan hal yang penting.

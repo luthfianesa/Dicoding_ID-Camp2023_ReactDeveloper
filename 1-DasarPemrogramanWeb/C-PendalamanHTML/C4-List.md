@@ -1,4 +1,4 @@
-## C4. 1 List
+## List
 
 - Pada HTML terdapat tiga tipe list.
 

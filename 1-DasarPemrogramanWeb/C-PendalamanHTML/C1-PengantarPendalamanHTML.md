@@ -1,4 +1,4 @@
-### Pengantar Pendalaman HTML
+## Pengantar Pendalaman HTML
 
 - Pada modul ini, kita akan menyelam lebih dalam dengan variasi elemen pada HTML.
 - Harapannya, kita dapat memilih elemen yang sesuai dalam menampilkan konten, terutama ketika mengembangkan proyek latihan kita.
