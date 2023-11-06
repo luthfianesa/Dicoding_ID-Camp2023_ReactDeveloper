@@ -1,0 +1,68 @@
+## Special Character
+
+- Ada beberapa karakter spesial seperti copyright symbol (©) yang tidak termasuk ke dalam standar kelompok **ASCII characters**.
+- ASCII characters hanya menyediakan karakter seperti huruf, nomor, dan beberapa simbol dasar lainnya. - Karakter lain, seperti lebih besar dari (>) atau lebih kecil dari (<), tidak dapat digunakan secara langsung sebagai konten pada HTML meskipun tersedia dalam ASCII character.
+- Hal ini karena karakter tersebut akan **terbaca sebagai sebuah tag**.
+- Untuk menampilkan karakter seperti yang disebutkan tadi, HTML memerlukan sebuah **“escaped” character**.
+- Escaping artinya tidak menulis karakter itu sendiri, tetapi ia diganti dengan **nilai numeric** atau **character reference** pada karakternya.
+- Ada **dua cara** untuk melakukannya :
+  - Menetapkan nilai numerik (**numeric entity**)
+  - Menggunakan nama singkatan yang sudah ditetapkan untuk masing-masing karakternya (**named entity**). Semua referensi karakter dimulai dengan “&” dan diakhiri dengan “;”.
+  - Berikut adalah daftar karakter spesial :
+    - **Non-Breaking Space**
+      - Named Entity `&nbsp;`
+      - Numeric Entity `&#160;`
+    - & **Ampersand**
+      - Named Entity `&amp;`
+      - Numeric Entity `&#038;`
+    - ’ **Apostrophe**
+      - Named Entity`&apos;`
+      - Numeric Entity `&#039;`
+    - `<` **Kurang dari** (less-than)
+      - Named Entity `&lt;`
+      - Numeric Entity `&#060;`
+    - `>` **Lebih dari** (greater-than)
+      - Named Entity `&gt;`
+      - Numeric Entity `&#062;`
+    - © **Hak cipta** (copyright)
+      - Named Entity `&copy;`
+      - Numeric Entity `&#169;`
+    - ® **Merek dagang terdaftar** (registered trademark)
+      - Named Entity `&reg;`
+      - Numeric Entity `&#174;`
+    - ™ **Merek dagang** (trademark)
+      - Named Entity `&trade;`
+      - Numeric Entity `&#8482;`
+    - £ **Pound**
+      - Named Entity `&pound;`
+      - Numeric Entity `&#163;`
+    - ¥ **Yen**
+      - Named Entity `&yen;`
+      - Numeric Entity `&#165;`
+    - € **Euro**
+      - Named Entity `&euro;`
+      - Numeric Entity `&#8364`;
+      - – **En-dash**
+        - Named Entity `&ndash`;
+        - Numeric Entity `&#8211;`
+      - — **Em-dash**
+        - Named Entity `&mdash;`
+        - Numeric Entity `&#8212;`
+      - ‘ **Kutip tunggal kiri**
+        - Named Entity `&lsquo;`
+        - #Numeric Entity `&#8216;`
+      - ’ **Kutip tunggal kanan**
+        - Named Entity `&rsquo;`
+        - Numeric Entity `&#8217;`
+      - “ **Kutip ganda kiri**
+        - Named Entity `&ldquo;`
+        - Numeric Entity` &#8220;`
+      - ” **Kutip ganda kanan**
+        - Named Entity `&rdquo;`
+        - Numeric Entity `&#8221;`
+      - • **Bullet**
+        - Named Entity `&bull;`
+        - Numeric Entity `&#8226;`
+      - ... **Horizontal ellipsis**
+        - Named Entity `&hellip;`
+        - Numeric Entity `&#8230;`
