@@ -1,0 +1,23 @@
+## Poisitioning
+
+- Kita sudah mengetahui cara mengubah posisi dari sebuah elemen dengan menggunakan margin.
+- Namun, ketika melakukannya akan berpengaruh terhadap posisi elemen lain di sekitarnya.
+- Lantas bagaimana jika kita ingin **memindahkan tanpa mengganggu posisi elemen lainnya**?
+- Solusinya kita perlu mengubah positioning schema dengan menggunakan properti position dalam mengontrol letak elemen tersebut.
+- Berikut adalah nilai dari properti position yang ada pada CSS.
+  - **Normal Flow**/**Static Flow**
+    - Ini adalah **default behaviour** yang dimiliki elemen
+    - Setiap elemen block akan ditampilkan dalam baris baru ketika dibuat.
+    - Jadi, setiap elemen block selalu muncul di bawah dari elemen block sebelumnya.
+    - Bahkan, jika masih terdapat ruang kosong pada samping elemennya, mereka tidak akan tampak bersebelahan.
+  - **Relative Positioning**
+    - Membuat elemen dapat melakukan perpindahan posisi ke atas, kanan, bawah, ataupun kiri dari posisi semula atau posisi elemen tersebut berada.
+    - Perpindahan posisi ini tidak akan berpengaruh terhadap posisi elemen di sekitarnya
+    - Karena ketika menggunakan relative positioning elemen tersebut akan dipindahkan dari normal flow.
+  - **Absolute Positioning**
+    - Sama seperti relative, elemen akan dipindahkan keluar dari normal flow
+    - Sehingga kita dapat memindahkan posisi elemen ke atas, kanan, bawah, ataupun kiri secara leluasa tanpa mengganggu elemen di sekitarnya.
+    - Namun, posisinya relatif terhadap jendela browser dan posisinya dapat relatif pada induk elemen selama induk elemen juga berada di luar dari normal flow.
+  - **Fixed Positioning**
+    - Ini merupakan absolute position.
+    - Namun, posisinya selalu relatif pada jendela browser, bahkan ketika pengguna melakukan scrolling posisinya akan tetap tampak pada posisinya di layar.
