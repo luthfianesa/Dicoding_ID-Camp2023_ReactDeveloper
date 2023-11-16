@@ -1,0 +1,27 @@
+## Dasar Dasar dan Terminologi Flexbox
+
+- Dalam penggunaannya, flexbox bukanlah properti yang bekerja secara sendiri.
+- Flexbox dapat melakukan banyak hal dengan melibatkan berbagai properti pendukung.
+- Beberapa di antaranya digunakan oleh **flex container** dan sebagian lainnya digunakan oleh **flex items**.
+- Pada dasarnya, arah flow didasarkan pada flow dari elemen block (vertical) dan flow dari elemen inline (horizontal).
+- Flexbox sendiri memiliki arah layout yang didasarkan pada **flex-direction**.
+- Terdapat dua istilah khusus pada elemen yang menerapkan flexbox, yaitu flex container dan flex item.
+- Flex container adalah **parent elemen** dari seluruh flex items.
+- Flex items adalah elemen yang secara langsung merupakan **child** dari parent element.
+- Berikut adalah sumbu pada flexbox :
+  - **Main Axis**
+    - Main axis dari flex container adalah arah sumbu utama yang mana flex items akan dijejerkan atau ditata.
+    - Perlu diingat, arah dari main axis tidak selalu horizontal.
+    - Hal ini bergantung terhadap value dari properti flex-direction.
+  - **Main-Start** | **Main-End**
+    - Flex items akan ditempatkan dalam flex container yang berawal dari main-start dan main-end.
+  - **Main Size**
+    - Main size merupakan lebar atau tinggi dari flex item yang diposisikan pada sumbu utama (main axis).
+  - **Cross Axis** cross axis adalah sumbu yang arahnya tegak lurus dengan main axis.
+    - Biasanya ini terjadi ketika flexbox menerapkan value wrap pada properti flex-wrap sehingga susunan layout terlihat dua dimensi.
+  - **Cross-Start** | **Cross-End**
+    - Flex item yang memenuhi ruang kosong flex container secara vertikal
+    - Dimulai dari cross-start hingga cross end.
+    - Dapat kita atur menggunakan properti align-items, align-self, dan align-content.
+  - **Cross Size**
+    - Lebar atau tinggi dari sebuah flex item yang ditempatkan pada dimensi cross.
